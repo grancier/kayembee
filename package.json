@@ -1,16 +1,26 @@
 {
-  "name": "frontie-webpack",
+  "name": "killer-markdown-blog",
   "version": "1.0.0",
-  "description": "Frontie Webpack - Front-end Boilerplate. Gulp 4 + Webpack 4 + Babel + BrowserSync + Sass + ITCSS + Twig.js",
+  "description": "KMB - Node.js blogging app using markdown.",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "flickity": "^2.2.0",
-    "sweet-scroll": "^4.0.0"
+    "sweet-scroll": "^4.0.0",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.21",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.0",
-    "@babel/preset-env": "^7.4.2",
+    "nodemon": "^1.18.10",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
     "@babel/register": "^7.4.0",
     "autoprefixer": "^9.5.0",
     "babel-loader": "^8.0.5",
@@ -55,7 +65,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomaszbujnowicz/frontie-webpack.git"
+    "url": "git+https://github.com/grancier/kayembee.git"
   },
   "keywords": [
     "gulp",
@@ -79,13 +89,13 @@
     "itcss"
   ],
   "author": {
-    "name": "Tomasz Bujnowicz",
-    "email": "hi@tomaszbujnowicz.com",
-    "url": "https://www.tomaszbujnowicz.com"
+    "name": "Gary Rancier",
+    "email": "lodyssee@gmail.com",
+    "url": "https://kayembee.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tomaszbujnowicz/frontie-webpack/issues"
+    "url": "https://github.com/grancier/kayembee.git/issues"
   },
-  "homepage": "https://github.com/tomaszbujnowicz/frontie-webpack#readme"
+  "homepage": "https://github.com/grancier/kayembee.git#readme"
 }
